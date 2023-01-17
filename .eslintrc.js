@@ -8,6 +8,9 @@ module.exports = {
     "plugin:testing-library/react",
     "prettier",
   ],
+  globals: {
+    React: "readonly",
+  },
   overrides: [],
   parser: "@typescript-eslint/parser",
   parserOptions: {
